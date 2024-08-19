@@ -4,7 +4,7 @@ This code is written to understand how we can implement a worker threadpool in G
 
 **Note:** This implementation is for educational purposes only and should not be used in production directly. It lacks the robustness, error handling, and optimizations required for a production-grade system.
 
-![Worker ThreadPool Video](assets/worker_threadpool_demo.mp4)
+<video src="https://github.com/user-attachments/assets/19b895d1-2fa3-41b6-81a9-f828f1411772" width="352" height="720"></video>
 
 ## Knowledge Requirements
 To understand and work with this codebase, you should have a basic understanding of the following concepts:
@@ -22,12 +22,6 @@ To understand and work with this codebase, you should have a basic understanding
 1. **Task Queue**: A channel-based queue to hold tasks.
 2. **Fixed Worker Pool**: A pool of worker goroutines that process tasks from the queue.
 3. **HTTP Server**: An HTTP server that accepts requests and enqueues tasks.
-
-### Main Components
-
-- **Task Queue**: Implemented using a channel to hold tasks.
-- **Fixed Worker Pool**: A pool of worker goroutines that process tasks from the queue.
-- **HTTP Server**: An HTTP server that accepts requests and enqueues tasks.
 
 ### Code Explanation
 
