@@ -4,6 +4,8 @@ This code is written to understand how we can implement a worker threadpool in G
 
 **Note:** This implementation is for educational purposes only and should not be used in production directly. It lacks the robustness, error handling, and optimizations required for a production-grade system.
 
+![Worked Thread Pool](https://github.com/user-attachments/assets/4281a28a-bcc9-4c45-840a-11277e7a4ae9)
+
 <video src="https://github.com/user-attachments/assets/19b895d1-2fa3-41b6-81a9-f828f1411772" width="352" height="720"></video>
 
 ## Knowledge Requirements
@@ -16,6 +18,8 @@ To understand and work with this codebase, you should have a basic understanding
 
 
 ## Implementation Details
+
+![Worked Thread Pool2](https://github.com/user-attachments/assets/8d330374-4449-4686-a29c-17462cf77b48)
 
 ### Components
 
